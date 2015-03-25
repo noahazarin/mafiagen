@@ -3,7 +3,7 @@ def read_template_file(filename):
     read file containing information about default rules that don't change 
     '''
     result = []
-    with open("ini/%s" % filename, "r") as f:
+    with open("resources/%s" % filename, "r") as f:
         result = f.read()
     return result
 
@@ -12,7 +12,7 @@ def read_setup_file(filename):
     read file containing setup specifics, like number of mafia, number of town, and so on.
     '''
     result = []
-    with open("ini/%s" % filename, "r") as f:
+    with open("resources/%s" % filename, "r") as f:
         for line in f:
             result.append(line[:-1])
     return result

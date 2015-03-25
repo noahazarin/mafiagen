@@ -1,0 +1,93 @@
+[b][u]Game setup information:[/u][/b]
+
+This is a mafia game for 13 players.  3 players will be randomly selected as mafia.
+
+The town's win condition:
+[quote]The town wins when all mafia are eliminated.[/quote]
+The mafia's win condition:
+[quote]The mafia wins if the number of mafia players alive is equal or greater to the number of town players alive.[/quote]
+When a player dies in the game, the player's alignment (that is, which team the player wins with), and role will be revealed.  This reveal is guaranteed to be accurate.
+
+[b][u]This game uses a variable open setup.  When the game begins, one of the following setups will be chosen:[/u][/b]
+
+A) 1 Town Cop, 1 Town Doctor, 8 Vanilla Townies, 1 Mafia Roleblocker, 1 Mafia Godfather, 1 Mafia Goon
+B) 1 Town Cop, 1 Town Veteran, 8 Vanilla Townies, 1 Mafia Roleblocker, 1 Mafia Godfather, 1 Mafia Goon
+C) 1 Town Vigilante, 1 Town Doctor, 8 Vanilla Townies, 1 Mafia Roleblocker, 1 Mafia Godfather, 1 Mafia Goon
+D) 1 Town Vigilante, 1 Town Veteran, 8 Vanilla Townies, 1 Mafia Roleblocker, 1 Mafia Godfather, 1 Mafia Goon
+
+[red][b]The mafia will be informed as to which setup is chosen, but the town will not![/b][/red]
+
+[b][u]Role descriptions:[/u][/b] 
+
+[b]Vanilla Townie[/b]
+You have no special abilities, but your voice and your vote are just as important as anyone else's.  You win with the town.
+
+[b]Town Cop / Detective[/b]
+Every night, you may choose a player to investigate.  You will visit the player and receive "Town-aligned" or "Mafia-aligned" as a result.  Your results are guaranteed to be accurate.  You win with the town.
+
+[b]Town Doctor[/b]
+Every night, you may choose a player other than yourself to protect.  You will visit the player, and if the mafia attempt to kill a player you are protecting on the same night, the kill will fail.  [s]Both you and your target are notified if you prevent a kill.[/s]  You win with the town.
+
+[b]Town Vigilante[/b]
+Once per game, at night, you may select a player to kill. That player is shot overnight and dies at the start of the next day. If your target was also shot by mafia, or was protected by a doctor or veteran status, your bullet is lost. If you were roleblocked, you don't use your bullet and can try againt he next night. You win with the town.
+
+[b]Town Veteran[/b]
+You have a bulletproof vest that can absorb one bullet. This means you need to be shot twice in order to die: once to destroy the vest, once to kill you. If you are roleblocked, however, your bulletproof vest doesn't work that night. [i]You are informed if your vest is destroyed by a bullet.[/i] You win with the town.
+
+[b]Mafia Roleblocker[/b]
+Every night, you may choose a player to roleblock, which will prevent them from performing actions and visits that night.  The roleblocked player will be notified, even if s/he is vanilla.  Every night, the mafia team must choose a player to kill. You may communicate with other members of your mafia team outside of the game thread at any time.  You win with the mafia.
+The mafia team is:
+A quicktopic has been provided for your team:
+The setup that is being used for this game is: (A/B/C/D)
+
+[b]Mafia Goon[/b]
+Every night, the mafia team must choose a player to kil;.You may communicate with other members of your mafia team outside of the game thread at any time.  You win with the mafia.
+The mafia team is:
+A quicktopic has been provided for your team:
+The setup that is being used for this game is: (A/B/C/D)
+
+[b]Mafia Godfather[/b]
+You return "town" to cop checks, as though you were a vanilla townie. Every night, the mafia team must choose a player to kill. You may communicate with other members of your mafia team outside of the game thread at any time.  You win with the mafia.
+The mafia team is:
+A quicktopic has been provided for your team:
+The setup that is being used for this game is: (A/B/C/D)
+
+
+[b]Sample PMs:[/b]
+
+[quote]Vanilla Town[/quote][quote]Town Cop[/quote][quote]Town Vigilante[/quote][quote]Town Veteran[/quote][quote]Town Doctor[/quote][quote]Mafia Goon
+The mafia team is:
+A quicktopic has been provided for your team:
+The setup that is being used for this game is: (A/B/C/D)[/quote][quote]Mafia Roleblocker
+The mafia team is:
+A quicktopic has been provided for your team:
+The setup that is being used for this game is: (A/B/C/D)[/quote]
+
+If there is any confusion about your role PM or the setup, PM me or your coach if you have one. 
+
+
+[b]FAQs:[/b]
+
+[b]Q:[/b] Can good guys communicate outside of the thread? What about just the Cop / Detective?
+[b]A:[/b] The good guys can't communicate outside of the thread. This includes the Cop.
+
+[b]Q:[/b] I'm confused about some role names that are used interchangeably.
+[b]A:[/b] VT = Vanilla Townie = Town Vanilla. Cop = DT = Detective. Medic = Doc = Doctor = Angel. Scum = Mafia. RB = Roleblocker
+
+[b]Q:[/b] Does something extra bad happen to the Doctor if s/he visits a mafia player?
+[b]A:[/b] The Doctor has no penalty for saving a mafia player
+
+[b]Q:[/b] I want to talk about coaching, or have a question about coaching. Where should I ask this?
+[b]A:[/b] PM me. Do not post in the thread about coaching.
+
+[b]Q:[/b] Should I talk about this game anywhere other than this thread?
+[b]A:[/b] No. You can talk in your special Scum Quicktopic if you are Mafia. You can also talk with your coach. Otherwise, do not mention this game. Don't mention it in passing. Don't mention that you're alive. Don't mention that you think your case is good. People in this game read all parts of the forums here on TL, so if you go over the Sc2 Strategy and say "I'm a bad mafia dude in this game" you will get found out.
+
+[b]Q:[/b] Should I talk about this game anywhere other than this thread if I'm dead?
+[b]A:[/b] When you die I will provide you with a quicktopic for dead players to hang out in and discuss the game.
+
+[b]Q:[/b] Can town decide to "sleep" or vote for a no-lynch?
+[b]A:[/b] You are allowed to vote for a no-lynch.
+
+[b]Q:[/b] The deadline passed and the Host hasn't finished writing the Day post or Night post. During these minutes between the lynch ending, or between the night ending, and the start of the next phase, can I talk?
+[b]A:[/b] Do not talk if the day or night post is late. After the lynch or the night kills have been 100% determined, in theory the next day should start instantly. In practice, it takes me some time to compose the new post, and during this time you should quietly wait for the flip. Typically there's a delay of between 1 and 10 minutes.

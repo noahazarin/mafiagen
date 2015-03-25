@@ -18,8 +18,8 @@ def test_setup_read():
     result = mafiagen.read_setup_file("testfile.txt")
     assert_equal(result, ["test file line 1", "test file line 2", "test file line 3"])
     
-def test_write_file():
-    result = mafiagen.write_file("pudding %s", "is delicious", "testfile.txt")
+def test_combine_setup():
+    result = mafiagen.combine_setup("pudding %s", "is delicious", "testfile.txt")
     assert_equal(result, "pudding is delicious")
 
 def test_setup_to_tuple():
@@ -35,7 +35,7 @@ def test_combined_write():
     setuplist = mafiagen.read_setup_file("testsetup.txt")
     templatestring = mafiagen.read_template_file("testtemplate.txt")
     setuptuple = mafiagen.setup_to_tuple(setuplist)
-    result = mafiagen.write_file(templatestring, setuptuple, "testtotal.txt")
+    result = mafiagen.combine_setup(templatestring, setuptuple, "testtotal.txt")
     resultlist = result.split('\n')
     assert_equal(resultlist[2][11:-13], "test mafia")
     assert_equal(resultlist[4][61:67], "cohost")
@@ -43,7 +43,7 @@ def test_combined_write():
     assert_equal(resultlist[101][207:215], "1500 PST")
 
 def test_blank_list():
-    result = mafiagen.create_player_list()
+    result = mafiagen.create_player_list("blanklist.txt")
     resultlist = result.split('\n')
     assert_equal(resultlist[0], "[b]Player List[/b]") 
 
@@ -54,3 +54,9 @@ def test_players_to_tuple():
 def test_list_population():
     playertuple = mafiagen.playerlist_and_url_to_tuple("url", ["player1", "player2", "player3", "player4", "player5", "player6", "player7", "player8", "player9", "player10", "player11", "player12", "player13"])
     result = mafiagen.populate_player_list("varlist.txt", playertuple, "testpopulatedfile.txt")
+
+def test_newbie_filegen():
+    result = mafiagen.generate_initial_newbie_files("testtemplate.txt", "testsetup.txt")
+    with open("resources/newbieroles.txt", "r") as f:
+        roles = f.read()
+    assert_equal(result, roles) 

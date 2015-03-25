@@ -1,8 +1,8 @@
 [center][IMG]http://i110.photobucket.com/albums/n99/chuiu/TLmafia_new.png[/IMG][/center]
 
-[b][center]test mafia[/b][/center]
+[b][center]%s[/b][/center]
 
-[url=http://www.teamliquid.net/mytlnet/index.php?view=new&to=cohost]cohost[/url] is helping me co-host this game.  Any questions can be directed towards him/her or myself.
+[url=http://www.teamliquid.net/mytlnet/index.php?view=new&to=%s]%s[/url] is helping me co-host this game.  Any questions can be directed towards him/her or myself.
 
 [i]Sun Tzu said, "The supreme art of war is to subdue the enemy without fighting."  
 
@@ -99,7 +99,7 @@ There are no clues.
 PMs and out of thread communication are not allowed in this game, unless your role explicitly allows them.
 
 [b]Time Cycle[/b]:
-This game will follow a 48 hour day/24 hour night cycle. Any votes after the deadline will not count and the game will be put on hold until the night post is up. The deadline for each cycle will be [b][time]1500 PST[/time][/b].
+This game will follow a 48 hour day/24 hour night cycle. Any votes after the deadline will not count and the game will be put on hold until the night post is up. The deadline for each cycle will be [b][time]%s[/time][/b].
 [hr]
 [b]Credits[/b]:
 Thanks to Zona, who inspired me to make this game, and designed this setup.

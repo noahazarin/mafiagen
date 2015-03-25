@@ -1,0 +1,29 @@
+[b]Player List[/b]
+1) %s [url=%s?user=%s](filter)[/url]
+2) %s [url=%s?user=%s](filter)[/url]
+3) %s [url=%s?user=%s](filter)[/url]
+4) %s [url=%s?user=%s](filter)[/url]
+5) %s [url=%s?user=%s](filter)[/url]
+6) %s [url=%s?user=%s](filter)[/url]
+7) %s [url=%s?user=%s](filter)[/url]
+8) %s [url=%s?user=%s](filter)[/url]
+9) %s [url=%s?user=%s](filter)[/url]
+10) %s [url=%s?user=%s](filter)[/url]
+11) %s [url=%s?user=%s](filter)[/url]
+12) %s [url=%s?user=%s](filter)[/url]
+13) %s [url=%s?user=%s](filter)[/url]
+
+[b]Coach List[/b]
+1)
+2)
+
+[b]Replacement List[/b]
+1)
+2)
+3)
+
+[b][green]10 of 10 Town-Aligned Players Remaining[/B][/green]
+[b][red]3 of 3 Mafia-Aligned Players Remaining[/b][/red]
+
+[spoiler=Important Posts]
+[/spoiler]

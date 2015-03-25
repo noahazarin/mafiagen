@@ -4,16 +4,16 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
+    'description': 'Generate Newbie Mafia setups for TL Mafia',
     'author': 'Noah Azarin',
     'url': 'URL to get it at.',
     'download_url': 'Where to download it',
     'author_email': 'noahazarin@gmail.com',
     'version': '0.1',
     'install_Requires': ['nose'],
-    'packages': ['NAME'],
+    'packages': ['mafiagen'],
     'scripts': [],
-    'name': 'projectname',
+    'name': 'mafiagen',
 }
 
 setup(**config)

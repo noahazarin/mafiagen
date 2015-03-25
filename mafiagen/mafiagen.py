@@ -1,18 +1,21 @@
-def read_template_file():
+def read_template_file(filename):
     '''
     read file containing information about default rules that don't change 
     '''
-    pass
+    result = []
+    with open("ini/%s" % filename, "r") as f:
+        result = f.read()
+    return result
 
 def read_setup_file(filename):
     '''
-    read file containing setup specific, like number of mafia, number of town, and so on.
+    read file containing setup specifics, like number of mafia, number of town, and so on.
     '''
     result = []
     with open("ini/%s" % filename, "r") as f:
         for line in f:
-            result.append(line)
-    return ''.join(result)
+            result.append(line[:-1])
+    return result
 
 def write_file(poststring, params, filename):
     '''
@@ -27,4 +30,17 @@ def write_file(poststring, params, filename):
         f.close()
     return result 
 
+def setup_to_tuple(setupstr):
+    '''
+    convert setup information to tuple
 
+    setup format:
+    game name
+    cohost name
+    deadline (format: 1600 PST)
+
+    cohost name is used twice
+    '''
+    setuplist = setupstr
+    resulttuple = (setuplist[0], setuplist[1], setuplist[1], setuplist[2])
+    return resulttuple

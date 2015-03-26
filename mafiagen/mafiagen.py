@@ -85,18 +85,12 @@ def populate_player_list(template, signuptuple, filename):
         f.close()
     return result
     
-def generate_initial_newbie_files(templatename, setupinfo, signupoutfilename=None, rolesoutfilename=None, setupoutfilename=None):
+def generate_initial_newbie_files(templatename, setupinfo, signupoutfilename="newbiesignups.txt", rolesoutfilename="newbieroles.txt", setupoutfilename="newbiesetup.txt"):
     '''
     with a template name and the setup info name, generate all the files 
     needed for a game of mafia, including blank signup list.
     for use with newbie games. write these files to tmp
     '''
-    if not signupoutfilename:
-        signupoutfilename = "newbiesignups.txt"
-    if not rolesoutfilename:
-        rolesoutfilename = "newbieroles.txt"
-    if not setupoutfilename:
-        setupoutfilename = "newbiesetup.txt"
     create_player_list(signupoutfilename)
     combine_setup(read_template_file(templatename), setup_to_tuple(read_setup_file(setupinfo)), setupoutfilename)
     with open("resources/newbieroles.txt", "r") as f:
